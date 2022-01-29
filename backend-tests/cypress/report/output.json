@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-01-29T18:41:20.238Z",
-    "end": "2022-01-29T18:41:22.877Z",
-    "duration": 2367,
+    "start": "2022-01-29T19:11:39.644Z",
+    "end": "2022-01-29T19:11:40.542Z",
+    "duration": 857,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2c3f465a-71bb-4267-bae2-309b9a671556",
+      "uuid": "55e2128d-3070-4e0f-a68d-20b22b36db90",
       "title": "",
       "fullFile": "cypress/integration/backend-auth.spec.js",
       "file": "cypress/integration/backend-auth.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "65271356-9751-4d91-9bac-f036f77e51d6",
+          "uuid": "87f1cfa3-07bd-4f59-b107-33984193e54c",
           "title": "testing auth",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Create and delete client",
               "fullTitle": "testing auth Create and delete client",
               "timedOut": null,
-              "duration": 2367,
+              "duration": 857,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "clientHelpers.createClientRequestAndDelete(cy);",
               "err": {},
-              "uuid": "7e2306ca-bfeb-49bf-be1c-5701062f3e80",
-              "parentUUID": "65271356-9751-4d91-9bac-f036f77e51d6",
+              "uuid": "be6b0564-3f72-4362-a914-68bdafb8fd38",
+              "parentUUID": "87f1cfa3-07bd-4f59-b107-33984193e54c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7e2306ca-bfeb-49bf-be1c-5701062f3e80"
+            "be6b0564-3f72-4362-a914-68bdafb8fd38"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2367,
+          "duration": 857,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
